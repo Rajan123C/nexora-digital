@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>Nexora Digital — Premium Digital Agency | Web, Design & Marketing</title>
+  <meta name="description" content="Nexora Digital crafts exceptional digital experiences — from stunning web development and UI/UX design to strategic digital marketing and business automation. Let's build something remarkable together." />
+  <meta name="keywords" content="digital agency, web development, UI UX design, digital marketing, SEO, business automation, Nexora Digital" />
+  <meta name="author" content="Nexora Digital" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nexora Digital — Premium Digital Agency" />
+  <meta property="og:description" content="We craft exceptional digital experiences that drive real business growth." />
+  <meta property="og:site_name" content="Nexora Digital" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nexora Digital — Premium Digital Agency" />
+  <meta name="twitter:description" content="We craft exceptional digital experiences that drive real business growth." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (inline SVG as data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%233b82f6'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' fill='white' font-size='16' font-weight='900' font-family='system-ui'>N</text></svg>" />
+</head>
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────── -->
+  <header>
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <div class="navbar-inner">
+
+          <!-- Logo -->
+          <a href="#hero" class="navbar-logo" aria-label="Nexora Digital — Go to homepage">
+            <div class="logo-mark" aria-hidden="true">Nx</div>
+            <span class="logo-text">Nexora<span>Digital</span></span>
+          </a>
+
+          <!-- Desktop Links -->
+          <ul class="navbar-links" role="list">
+            <li><a href="#services"     class="nav-link" data-section="services">Services</a></li>
+            <li><a href="#about"        class="nav-link" data-section="about">About</a></li>
+            <li><a href="#portfolio"    class="nav-link" data-section="portfolio">Portfolio</a></li>
+            <li><a href="#process"      class="nav-link" data-section="process">Process</a></li>
+            <li><a href="#testimonials" class="nav-link" data-section="testimonials">Reviews</a></li>
+            <li><a href="#contact"      class="nav-link" data-section="contact">Contact</a></li>
+          </ul>
+
+          <!-- Desktop Actions -->
+          <div class="navbar-actions">
+            <a href="#contact" class="btn btn-primary" id="nav-cta-btn">Start a Project ↗</a>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle mobile navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile navigation menu" aria-modal="true">
+      <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
+      <nav class="mobile-nav-drawer" aria-label="Mobile navigation">
+        <ul role="list">
+          <li><a href="#services"     class="mobile-nav-link" data-mobile-link>📐 Services</a></li>
+          <li><a href="#about"        class="mobile-nav-link" data-mobile-link>💡 About</a></li>
+          <li><a href="#portfolio"    class="mobile-nav-link" data-mobile-link>🎨 Portfolio</a></li>
+          <li><a href="#process"      class="mobile-nav-link" data-mobile-link>🔄 Process</a></li>
+          <li><a href="#testimonials" class="mobile-nav-link" data-mobile-link>⭐ Reviews</a></li>
+          <li><a href="#contact"      class="mobile-nav-link" data-mobile-link>✉️ Contact</a></li>
+        </ul>
+        <div class="mobile-nav-divider"></div>
+        <a href="#contact" class="btn btn-primary" data-mobile-link>Start a Project ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ─── HERO SECTION ─────────────────────────────────────── -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="bg-grid"></div>
+        <div class="bg-radial hero-orb-1"></div>
+        <div class="bg-radial hero-orb-2"></div>
+        <div class="bg-radial hero-orb-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Hero Text -->
+          <div class="hero-text">
+            <div class="hero-badge" role="status">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              Available for new projects
+            </div>
+
+            <h1 class="hero-title" id="hero-heading">
+              We Build Digital<br/>
+              <span class="text-gradient">Experiences</span><br/>
+              That Convert
+            </h1>
+
+            <p class="hero-description">
+              Nexora Digital crafts premium websites, bold brand identities, and
+              performance-driven marketing strategies — so your business stands out,
+              scales up, and stays ahead.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary btn-lg" id="hero-cta-primary">
+                Start Your Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#portfolio" class="btn btn-outline btn-lg" id="hero-cta-secondary">
+                View Our Work
+              </a>
+            </div>
+
+            <div class="hero-stats" role="list" aria-label="Key statistics">
+              <div role="listitem">
+                <div class="hero-stat-number" aria-label="150 plus projects delivered">150+</div>
+                <div class="hero-stat-label">Projects Delivered</div>
+              </div>
+              <div role="listitem">
+                <div class="hero-stat-number" aria-label="98 percent client satisfaction">98%</div>
+                <div class="hero-stat-label">Client Satisfaction</div>
+              </div>
+              <div role="listitem">
+                <div class="hero-stat-number" aria-label="7 years of experience">7+</div>
+                <div class="hero-stat-label">Years of Expertise</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card-main">
+              <!-- Browser mockup -->
+              <div class="browser-mockup">
+                <div class="browser-bar">
+                  <div class="browser-dots">
+                    <div class="browser-dot"></div>
+                    <div class="browser-dot"></div>
+                    <div class="browser-dot"></div>
+                  </div>
+                  <div class="browser-url">nexoradigital.io/dashboard</div>
+                </div>
+                <div class="browser-content">
+                  <div class="dash-grid">
+                    <div class="dash-card">
+                      <div class="dash-card-label">Monthly Revenue</div>
+                      <div class="dash-card-value">$84.2k</div>
+                      <div class="dash-card-change">↑ 24.1% vs last month</div>
+                    </div>
+                    <div class="dash-card">
+                      <div class="dash-card-label">Active Users</div>
+                      <div class="dash-card-value">12.9k</div>
+                      <div class="dash-card-change">↑ 18.7% growth</div>
+                    </div>
+                  </div>
+                  <div class="dash-card">
+                    <div class="dash-card-label">Conversion Rate Performance</div>
+                    <div class="dash-chart-bar" aria-label="Bar chart showing performance">
+                      <div class="bar-item" style="height:40%"></div>
+                      <div class="bar-item" style="height:65%"></div>
+                      <div class="bar-item" style="height:55%"></div>
+                      <div class="bar-item active" style="height:80%"></div>
+                      <div class="bar-item" style="height:70%"></div>
+                      <div class="bar-item" style="height:85%"></div>
+                      <div class="bar-item active" style="height:95%"></div>
+                      <div class="bar-item" style="height:75%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Cards -->
+            <div class="floating-card floating-card-1">
+              <div class="floating-card-icon" style="background:rgba(16,185,129,0.15);">✅</div>
+              <div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted)">Project Status</div>
+                <div>Live & Converting</div>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-2">
+              <div class="floating-card-icon" style="background:rgba(59,130,246,0.15);">📈</div>
+              <div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted)">Growth This Month</div>
+                <div style="color:var(--color-emerald)">+247%</div>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-3">
+              <div class="floating-card-icon" style="background:rgba(245,158,11,0.15);">⚡</div>
+              <div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted)">Page Speed</div>
+                <div>98 / 100</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── TRUSTED BY STRIP ──────────────────────────────────── -->
+    <div class="trusted-strip" aria-label="Technologies and platforms we work with">
+      <div class="container">
+        <p class="trusted-label">Trusted technologies &amp; platforms we master</p>
+        <div class="trusted-logos" role="list">
+          <span class="trusted-logo" role="listitem">React</span>
+          <span class="trusted-logo" role="listitem">Next.js</span>
+          <span class="trusted-logo" role="listitem">Shopify</span>
+          <span class="trusted-logo" role="listitem">Webflow</span>
+          <span class="trusted-logo" role="listitem">WordPress</span>
+          <span class="trusted-logo" role="listitem">Figma</span>
+          <span class="trusted-logo" role="listitem">AWS</span>
+          <span class="trusted-logo" role="listitem">Stripe</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── SERVICES SECTION ──────────────────────────────────── -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="bg-grid" aria-hidden="true"></div>
+      <div class="container">
+        <header class="services-header reveal">
+          <div class="section-label">What We Do</div>
+          <h2 class="section-title" id="services-heading">
+            Services Built for<br/>
+            <span class="text-gradient">Growth & Impact</span>
+          </h2>
+          <p class="section-subtitle" style="margin-inline:auto;">
+            From pixel-perfect interfaces to data-driven marketing, we offer end-to-end
+            digital services that transform your vision into measurable results.
+          </p>
+        </header>
+
+        <div class="services-grid" role="list" aria-label="Our services">
+
+          <!-- Web Development -->
+          <article class="service-card reveal stagger-1"
+                   style="--card-accent:#3b82f6;--icon-bg:rgba(59,130,246,0.1);--icon-border:rgba(59,130,246,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">🖥️</div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">
+              We build blazing-fast, scalable web applications using modern frameworks
+              and best practices — crafted for performance, accessibility, and future growth.
+            </p>
+            <ul class="service-features" aria-label="Web development features">
+              <li class="service-feature">Custom React & Next.js Applications</li>
+              <li class="service-feature">E-commerce & Shopify Development</li>
+              <li class="service-feature">API Integration & Backend Development</li>
+              <li class="service-feature">Performance Optimization & CWV</li>
+            </ul>
+          </article>
+
+          <!-- UI/UX Design -->
+          <article class="service-card reveal stagger-2"
+                   style="--card-accent:#8b5cf6;--icon-bg:rgba(139,92,246,0.1);--icon-border:rgba(139,92,246,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">🎨</div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-description">
+              We design intuitive, delightful interfaces grounded in user research —
+              turning complex flows into seamless, conversion-optimized experiences.
+            </p>
+            <ul class="service-features" aria-label="UI/UX design features">
+              <li class="service-feature">User Research & Journey Mapping</li>
+              <li class="service-feature">Wireframing & Interactive Prototypes</li>
+              <li class="service-feature">Design Systems & Component Libraries</li>
+              <li class="service-feature">Usability Testing & Iteration</li>
+            </ul>
+          </article>
+
+          <!-- Digital Marketing -->
+          <article class="service-card reveal stagger-3"
+                   style="--card-accent:#06b6d4;--icon-bg:rgba(6,182,212,0.1);--icon-border:rgba(6,182,212,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">📣</div>
+            <h3 class="service-title">Digital Marketing</h3>
+            <p class="service-description">
+              Data-driven campaigns across every digital channel — from paid ads to
+              content strategy — designed to attract, engage, and convert your ideal audience.
+            </p>
+            <ul class="service-features" aria-label="Digital marketing features">
+              <li class="service-feature">Paid Media (Google, Meta, LinkedIn)</li>
+              <li class="service-feature">Content Strategy & Copywriting</li>
+              <li class="service-feature">Email Marketing & Automation</li>
+              <li class="service-feature">Analytics & Conversion Tracking</li>
+            </ul>
+          </article>
+
+          <!-- SEO -->
+          <article class="service-card reveal stagger-4"
+                   style="--card-accent:#10b981;--icon-bg:rgba(16,185,129,0.1);--icon-border:rgba(16,185,129,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">🔍</div>
+            <h3 class="service-title">Search Engine Optimization</h3>
+            <p class="service-description">
+              We engineer sustainable organic growth — technical audits, authoritative
+              content, and strategic link-building that earn top rankings that last.
+            </p>
+            <ul class="service-features" aria-label="SEO features">
+              <li class="service-feature">Technical SEO Audits & Fixes</li>
+              <li class="service-feature">Keyword Research & Content Clusters</li>
+              <li class="service-feature">Link Building & Digital PR</li>
+              <li class="service-feature">Local SEO & Schema Markup</li>
+            </ul>
+          </article>
+
+          <!-- Business Automation -->
+          <article class="service-card reveal stagger-5"
+                   style="--card-accent:#f59e0b;--icon-bg:rgba(245,158,11,0.1);--icon-border:rgba(245,158,11,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">⚙️</div>
+            <h3 class="service-title">Business Automation</h3>
+            <p class="service-description">
+              We streamline your operations with smart automations and integrations —
+              freeing your team to focus on what drives real value.
+            </p>
+            <ul class="service-features" aria-label="Business automation features">
+              <li class="service-feature">CRM & Workflow Automation</li>
+              <li class="service-feature">Zapier, Make & n8n Integrations</li>
+              <li class="service-feature">AI-Powered Tools & Chatbots</li>
+              <li class="service-feature">Reporting & KPI Dashboards</li>
+            </ul>
+          </article>
+
+          <!-- Brand Strategy -->
+          <article class="service-card reveal stagger-6"
+                   style="--card-accent:#f43f5e;--icon-bg:rgba(244,63,94,0.1);--icon-border:rgba(244,63,94,0.2);"
+                   role="listitem">
+            <div class="service-icon-wrap" aria-hidden="true">💎</div>
+            <h3 class="service-title">Brand Strategy</h3>
+            <p class="service-description">
+              We craft compelling brand identities that resonate with your audience —
+              from naming and positioning to visual identity and tone of voice.
+            </p>
+            <ul class="service-features" aria-label="Brand strategy features">
+              <li class="service-feature">Brand Identity & Logo Design</li>
+              <li class="service-feature">Positioning & Messaging Strategy</li>
+              <li class="service-feature">Brand Guidelines & Style Guides</li>
+              <li class="service-feature">Pitch Decks & Marketing Collateral</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT SECTION ─────────────────────────────────────── -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="bg-radial" style="width:600px;height:600px;background:radial-gradient(circle,rgba(139,92,246,0.08) 0%,transparent 70%);top:-100px;right:-100px;" aria-hidden="true"></div>
+      <div class="container">
+        <div class="about-content">
+
+          <!-- Visual Side -->
+          <div class="about-visual reveal-left">
+            <div class="about-image-wrap">
+              <div class="about-stat-row">
+                <div class="about-stat-card">
+                  <div>
+                    <div class="about-stat-big text-gradient">150+</div>
+                    <div class="about-stat-desc">Projects shipped across 18 industries worldwide</div>
+                  </div>
+                </div>
+                <div class="about-stat-card">
+                  <div>
+                    <div class="about-stat-big" style="color:var(--color-teal)">98%</div>
+                    <div class="about-stat-desc">Client satisfaction &amp; retention rate</div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-stat-row">
+                <div class="about-stat-card">
+                  <div>
+                    <div class="about-stat-big" style="color:var(--color-purple)">7+</div>
+                    <div class="about-stat-desc">Years crafting digital excellence</div>
+                  </div>
+                </div>
+                <div class="about-stat-card">
+                  <div>
+                    <div class="about-stat-big" style="color:var(--color-amber)">40+</div>
+                    <div class="about-stat-desc">Expert specialists on our team</div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-stat-card" style="background:linear-gradient(135deg,rgba(59,130,246,0.1) 0%,transparent 100%);border-color:rgba(59,130,246,0.2);">
+                <div class="about-stat-big">$12M+</div>
+                <div class="about-stat-desc">In revenue generated for our clients this year</div>
+              </div>
+            </div>
+
+            <!-- Floating Achievement Badge -->
+            <div class="about-badge-float" aria-hidden="true">
+              <span style="font-size:1.5rem">🏆</span>
+              <div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted)">Recognized by</div>
+                <div style="font-weight:700;font-size:0.875rem">Awwwards + Clutch Top Agency</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Side -->
+          <div class="about-text reveal-right">
+            <div class="section-label">Who We Are</div>
+            <h2 class="section-title" id="about-heading">
+              A Team Obsessed<br/>With Your <span class="text-gradient">Success</span>
+            </h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              Founded in 2017, Nexora Digital is a full-service digital agency headquartered
+              in London. We partner with startups, scale-ups, and enterprise brands to deliver
+              end-to-end digital transformations.
+            </p>
+            <p style="font-size:var(--text-sm);color:var(--color-text-secondary);line-height:1.8;margin-top:var(--space-4);">
+              Our philosophy is simple: great digital work combines strategic thinking,
+              creative excellence, and technical precision. We don't do average — every
+              pixel, every line of code, and every campaign is crafted with intent.
+            </p>
+
+            <!-- Values -->
+            <div class="about-values" aria-label="Our core values">
+              <div class="value-item">
+                <div class="value-icon" style="background:rgba(59,130,246,0.1);" aria-hidden="true">🎯</div>
+                <div>
+                  <div class="value-title">Results-Driven</div>
+                  <div class="value-desc">We measure everything. Every decision is backed by data and oriented toward your specific business goals.</div>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon" style="background:rgba(16,185,129,0.1);" aria-hidden="true">🤝</div>
+                <div>
+                  <div class="value-title">True Partnership</div>
+                  <div class="value-desc">We embed with your team, aligning deeply with your vision — not just executing tasks, but building alongside you.</div>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon" style="background:rgba(139,92,246,0.1);" aria-hidden="true">🚀</div>
+                <div>
+                  <div class="value-title">Always Innovating</div>
+                  <div class="value-desc">From AI tools to emerging design trends, we stay ahead of the curve so your brand stays ahead of the competition.</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:var(--space-10);">
+              <a href="#contact" class="btn btn-primary btn-lg" id="about-cta-btn">Work With Us</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PORTFOLIO SECTION ─────────────────────────────────── -->
+    <section id="portfolio" class="section" aria-labelledby="portfolio-heading">
+      <div class="bg-grid" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="portfolio-header">
+          <div class="portfolio-header-text reveal">
+            <div class="section-label">Our Work</div>
+            <h2 class="section-title" id="portfolio-heading">
+              Selected <span class="text-gradient">Demo Projects</span>
+            </h2>
+            <p class="section-subtitle">
+              The following are fictional demonstration projects created to showcase
+              our design and development capabilities. They do not represent real clients.
+            </p>
+          </div>
+          <div class="portfolio-filters reveal" role="group" aria-label="Filter projects by category">
+            <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-btn" data-filter="web" aria-pressed="false">Web Dev</button>
+            <button class="filter-btn" data-filter="design" aria-pressed="false">Design</button>
+            <button class="filter-btn" data-filter="marketing" aria-pressed="false">Marketing</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid" role="list" aria-label="Portfolio projects">
+
+          <!-- Project 1 -->
+          <article class="portfolio-card reveal stagger-1" data-category="web" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#0d1f3c 0%,#0a2a4a 50%,#071828 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <rect x="10" y="15" width="60" height="40" rx="4" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+                  <rect x="20" y="25" width="25" height="4" rx="2" fill="#60a5fa" opacity="0.6"/>
+                  <rect x="20" y="33" width="15" height="3" rx="1.5" fill="#94a3b8" opacity="0.4"/>
+                  <rect x="50" y="25" width="12" height="20" rx="2" fill="#3b82f6" opacity="0.3"/>
+                  <circle cx="40" cy="68" r="6" fill="#3b82f6" opacity="0.4"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View Apex Commerce demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open Apex Commerce demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">Apex Commerce Platform</h3>
+              <p class="portfolio-desc">
+                A high-performance SaaS e-commerce platform featuring real-time inventory management,
+                multi-currency checkout, and an AI-powered product recommendation engine.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">Next.js</span>
+                <span class="tag" role="listitem">TypeScript</span>
+                <span class="tag" role="listitem">Stripe</span>
+                <span class="tag" role="listitem">PostgreSQL</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="portfolio-card reveal stagger-2" data-category="design" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#1a0f3c 0%,#2d1462 50%,#0f0a28 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <circle cx="40" cy="35" r="20" stroke="#8b5cf6" stroke-width="1.5" fill="none"/>
+                  <circle cx="40" cy="35" r="12" fill="#8b5cf6" opacity="0.2"/>
+                  <circle cx="40" cy="35" r="6" fill="#8b5cf6" opacity="0.5"/>
+                  <path d="M25 58 Q40 50 55 58" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                  <path d="M20 64 Q40 52 60 64" stroke="#7c3aed" stroke-width="1.5" fill="none" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View Luminary Brand demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open Luminary Brand demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">Luminary Brand Identity</h3>
+              <p class="portfolio-desc">
+                Complete visual identity system for a fictional luxury wellness brand — including logo,
+                typography, color palette, packaging concepts, and a 60-page brand guidelines document.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">Figma</span>
+                <span class="tag" role="listitem">Illustrator</span>
+                <span class="tag" role="listitem">Brand Strategy</span>
+                <span class="tag" role="listitem">Motion Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="portfolio-card reveal stagger-3" data-category="marketing" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#0f2820 0%,#0a3d2a 50%,#071e16 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <rect x="12" y="50" width="8" height="18" rx="2" fill="#10b981" opacity="0.5"/>
+                  <rect x="24" y="40" width="8" height="28" rx="2" fill="#10b981" opacity="0.65"/>
+                  <rect x="36" y="30" width="8" height="38" rx="2" fill="#10b981" opacity="0.8"/>
+                  <rect x="48" y="35" width="8" height="33" rx="2" fill="#10b981" opacity="0.7"/>
+                  <rect x="60" y="20" width="8" height="48" rx="2" fill="#10b981"/>
+                  <path d="M16 48 L28 38 L40 28 L52 33 L64 18" stroke="#34d399" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View GrowthOS demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open GrowthOS demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">GrowthOS Marketing Suite</h3>
+              <p class="portfolio-desc">
+                A fictional integrated digital marketing dashboard unifying paid media,
+                SEO, email campaigns, and conversion analytics into a single command center.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">React</span>
+                <span class="tag" role="listitem">D3.js</span>
+                <span class="tag" role="listitem">Google Ads API</span>
+                <span class="tag" role="listitem">BigQuery</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="portfolio-card reveal stagger-1" data-category="web" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#1f1020 0%,#3d1040 50%,#1a0a1e 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <path d="M20 40 Q40 15 60 40" stroke="#f43f5e" stroke-width="1.5" fill="none"/>
+                  <path d="M20 40 Q40 65 60 40" stroke="#f43f5e" stroke-width="1.5" fill="none" opacity="0.5"/>
+                  <circle cx="40" cy="40" r="8" fill="#f43f5e" opacity="0.3"/>
+                  <circle cx="40" cy="40" r="4" fill="#f43f5e" opacity="0.7"/>
+                  <circle cx="20" cy="40" r="4" fill="#fb7185" opacity="0.5"/>
+                  <circle cx="60" cy="40" r="4" fill="#fb7185" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View MediConnect demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open MediConnect demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">MediConnect Health App</h3>
+              <p class="portfolio-desc">
+                A fictional telemedicine platform connecting patients with specialists —
+                featuring appointment scheduling, video consultations, and secure health records.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">React Native</span>
+                <span class="tag" role="listitem">Node.js</span>
+                <span class="tag" role="listitem">WebRTC</span>
+                <span class="tag" role="listitem">HIPAA</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="portfolio-card reveal stagger-2" data-category="design" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#1f1500 0%,#3d2a00 50%,#1a1000 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <rect x="15" y="15" width="22" height="22" rx="4" fill="#f59e0b" opacity="0.3"/>
+                  <rect x="15" y="43" width="22" height="22" rx="4" fill="#f59e0b" opacity="0.5"/>
+                  <rect x="43" y="15" width="22" height="48" rx="4" fill="#f59e0b" opacity="0.4"/>
+                  <circle cx="26" cy="26" r="5" fill="#fbbf24" opacity="0.7"/>
+                  <circle cx="54" cy="30" r="7" fill="#fbbf24" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View Vanta UI demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open Vanta UI demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">Vanta UI Design System</h3>
+              <p class="portfolio-desc">
+                A comprehensive, accessible design system with 200+ components, tokens,
+                Figma libraries, and documentation — built for enterprise-scale product teams.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">Figma</span>
+                <span class="tag" role="listitem">Storybook</span>
+                <span class="tag" role="listitem">Tokens</span>
+                <span class="tag" role="listitem">WCAG 2.1</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="portfolio-card reveal stagger-3" data-category="marketing" role="listitem">
+            <div class="portfolio-thumbnail">
+              <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#0a1f3c 0%,#0a2840 50%,#050f1e 100%);">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+                  <circle cx="40" cy="40" r="22" stroke="#06b6d4" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+                  <circle cx="40" cy="40" r="14" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.5"/>
+                  <circle cx="40" cy="40" r="6" fill="#06b6d4" opacity="0.4"/>
+                  <path d="M40 18 L40 62" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+                  <path d="M18 40 L62 40" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+                </svg>
+              </div>
+              <div class="portfolio-overlay" aria-hidden="true">
+                <button class="portfolio-action-btn" title="View demo project details" aria-label="View PrecisionSEO demo details">🔍</button>
+                <button class="portfolio-action-btn" title="View demo project link" aria-label="Open PrecisionSEO demo link">↗</button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-demo-label" aria-label="This is a demonstration project">⚠ Demo Project</div>
+              <h3 class="portfolio-title">PrecisionSEO Campaign</h3>
+              <p class="portfolio-desc">
+                A fictional 12-month SEO campaign for a B2B SaaS company — achieving top-3 rankings
+                for 200+ target keywords and tripling organic traffic within six months.
+              </p>
+              <div class="portfolio-tags" role="list" aria-label="Technologies used">
+                <span class="tag" role="listitem">SEO Strategy</span>
+                <span class="tag" role="listitem">Content Marketing</span>
+                <span class="tag" role="listitem">Link Building</span>
+                <span class="tag" role="listitem">Analytics</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROCESS SECTION ───────────────────────────────────── -->
+    <section id="process" class="section" aria-labelledby="process-heading">
+      <div class="bg-radial" style="width:500px;height:500px;background:radial-gradient(circle,rgba(59,130,246,0.06) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);" aria-hidden="true"></div>
+      <div class="container">
+
+        <header class="process-header reveal">
+          <div class="section-label">How We Work</div>
+          <h2 class="section-title" id="process-heading">
+            Our Proven <span class="text-gradient">4-Step Process</span>
+          </h2>
+          <p class="section-subtitle" style="margin-inline:auto;">
+            Every successful project starts with a clear plan. Our structured workflow
+            ensures transparent communication and exceptional outcomes — every time.
+          </p>
+        </header>
+
+        <div class="process-steps" role="list" aria-label="Our four-step process">
+
+          <div class="process-step reveal stagger-1" role="listitem" style="--step-color:#3b82f6;">
+            <div class="step-number-wrap" aria-hidden="true">
+              <div class="step-number-outer">
+                <div class="step-number-inner">🔭</div>
+              </div>
+              <div class="step-count">1</div>
+            </div>
+            <h3 class="step-title">Discovery</h3>
+            <p class="step-description">
+              We dive deep into your business, market, and users. Stakeholder interviews,
+              competitor audits, and goal-setting sessions lay the foundation for everything
+              that follows.
+            </p>
+          </div>
+
+          <div class="process-step reveal stagger-2" role="listitem" style="--step-color:#8b5cf6;">
+            <div class="step-number-wrap" aria-hidden="true">
+              <div class="step-number-outer">
+                <div class="step-number-inner">📋</div>
+              </div>
+              <div class="step-count">2</div>
+            </div>
+            <h3 class="step-title">Planning</h3>
+            <p class="step-description">
+              We translate insights into a concrete roadmap — wireframes, architecture
+              diagrams, content strategy, and a detailed project plan with clear milestones
+              and deliverables.
+            </p>
+          </div>
+
+          <div class="process-step reveal stagger-3" role="listitem" style="--step-color:#06b6d4;">
+            <div class="step-number-wrap" aria-hidden="true">
+              <div class="step-number-outer">
+                <div class="step-number-inner">⚡</div>
+              </div>
+              <div class="step-count">3</div>
+            </div>
+            <h3 class="step-title">Development</h3>
+            <p class="step-description">
+              Our team builds in two-week sprints with continuous feedback loops.
+              You see real progress every step of the way — transparent, iterative,
+              and always aligned with your vision.
+            </p>
+          </div>
+
+          <div class="process-step reveal stagger-4" role="listitem" style="--step-color:#10b981;">
+            <div class="step-number-wrap" aria-hidden="true">
+              <div class="step-number-outer">
+                <div class="step-number-inner">🚀</div>
+              </div>
+              <div class="step-count">4</div>
+            </div>
+            <h3 class="step-title">Delivery</h3>
+            <p class="step-description">
+              Rigorous QA, performance testing, and a smooth go-live. We don't disappear
+              after launch — ongoing support, analytics monitoring, and continuous optimization
+              are built into every engagement.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─── CTA STRIP ─────────────────────────────────────────── -->
+    <div class="cta-strip" aria-labelledby="cta-heading">
+      <div class="cta-strip-glow" aria-hidden="true"></div>
+      <div class="container" style="position:relative;z-index:1;">
+        <div class="reveal">
+          <div class="section-label" style="justify-content:center;">Limited Availability</div>
+          <h2 class="cta-title" id="cta-heading">
+            Ready to Build Something<br/>
+            <span class="text-gradient">Extraordinary?</span>
+          </h2>
+          <p class="cta-subtitle">We take on a select number of new clients each quarter. Let's talk.</p>
+          <div class="cta-actions">
+            <a href="#contact" class="btn btn-primary btn-lg" id="cta-strip-btn">Book a Free Consultation</a>
+            <a href="tel:+441234567890" class="btn btn-outline btn-lg" id="cta-call-btn">📞 Call Us Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── TESTIMONIALS SECTION ──────────────────────────────── -->
+    <section id="testimonials" class="section" aria-labelledby="testimonials-heading">
+      <div class="bg-grid" aria-hidden="true"></div>
+      <div class="container">
+
+        <header class="testimonials-header reveal">
+          <div class="section-label">Client Reviews</div>
+          <h2 class="section-title" id="testimonials-heading">
+            What Our Clients <span class="text-gradient">Say About Us</span>
+          </h2>
+          <p class="section-subtitle" style="margin-inline:auto;">
+            Authentic partnerships built on trust, transparency, and results.
+          </p>
+          <div class="testimonials-notice" role="note" aria-label="Disclaimer about testimonials">
+            ⚠ The following testimonials are fictional placeholders created for demonstration purposes only.
+            They do not represent real clients or genuine reviews.
+          </div>
+        </header>
+
+        <div class="testimonials-grid" role="list" aria-label="Client testimonials">
+
+          <article class="testimonial-card reveal stagger-1" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "Nexora didn't just redesign our platform — they transformed our entire digital
+              presence. Within three months of launch, our conversion rate jumped by 180%.
+              The team's strategic thinking and execution quality are truly world-class."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(59,130,246,0.1);" aria-hidden="true">👩‍💼</div>
+              <div>
+                <div class="author-name">Sarah Mitchell</div>
+                <div class="author-title">CEO, Apex Ventures <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal stagger-2" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "The SEO strategy Nexora built for us was meticulous and results-driven.
+              We went from page 4 to consistently ranking in the top 3 for our most
+              competitive keywords. Our organic revenue has doubled in eight months."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(139,92,246,0.1);" aria-hidden="true">👨‍💻</div>
+              <div>
+                <div class="author-name">James Thornton</div>
+                <div class="author-title">CMO, GrowthLabs <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal stagger-3" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "Working with Nexora was effortless. They understood our brand vision
+              immediately, delivered a stunning design system in record time, and provided
+              impeccable post-launch support. They're now our permanent digital partners."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(6,182,212,0.1);" aria-hidden="true">👩‍🎨</div>
+              <div>
+                <div class="author-name">Priya Kapoor</div>
+                <div class="author-title">Founder, Luminary Co. <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal stagger-4" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "Their automation work saved our team 40 hours per week. The CRM integration
+              alone paid for the entire project in the first month. The ROI has been
+              exceptional — I cannot recommend them highly enough."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(16,185,129,0.1);" aria-hidden="true">👨‍🔬</div>
+              <div>
+                <div class="author-name">Dr. Marcus Reid</div>
+                <div class="author-title">COO, MediConnect <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal stagger-5" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "Nexora rebuilt our entire marketing infrastructure from scratch. The integrated
+              dashboard they built gives us a real-time view of every campaign. Our ROAS
+              improved by 340% within the first quarter."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(245,158,11,0.1);" aria-hidden="true">👩‍💻</div>
+              <div>
+                <div class="author-name">Elena Vasquez</div>
+                <div class="author-title">Head of Growth, TechFlow <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal stagger-6" role="listitem">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+              <span class="star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-text">
+              "From discovery to launch in eight weeks — on time, on budget, and exceeding
+              every expectation. The Nexora team is a rare combination of creative brilliance
+              and technical excellence. They'll be our go-to agency for years to come."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:rgba(244,63,94,0.1);" aria-hidden="true">👨‍💼</div>
+              <div>
+                <div class="author-name">Oliver Hartmann</div>
+                <div class="author-title">CPO, Vanta Systems <em>(Fictional)</em></div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT SECTION ───────────────────────────────────── -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="bg-radial" style="width:700px;height:700px;background:radial-gradient(circle,rgba(59,130,246,0.08) 0%,transparent 70%);bottom:-200px;right:-150px;" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="contact-content">
+
+          <!-- Contact Info -->
+          <div class="contact-info reveal-left">
+            <div class="section-label">Get In Touch</div>
+            <h2 class="section-title" id="contact-heading">
+              Let's Build Something<br/>
+              <span class="text-gradient">Remarkable</span>
+            </h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              Tell us about your project and goals. We'll respond within one business day
+              with a tailored strategy and transparent pricing.
+            </p>
+
+            <div class="contact-methods" aria-label="Contact methods">
+              <div class="contact-method">
+                <div class="contact-method-icon" style="background:rgba(59,130,246,0.1);" aria-hidden="true">📧</div>
+                <div>
+                  <div class="contact-method-label">Email Us</div>
+                  <div class="contact-method-value">hello@nexoradigital.io</div>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-method-icon" style="background:rgba(16,185,129,0.1);" aria-hidden="true">📞</div>
+                <div>
+                  <div class="contact-method-label">Call Us</div>
+                  <div class="contact-method-value">+44 (0) 20 1234 5678</div>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-method-icon" style="background:rgba(139,92,246,0.1);" aria-hidden="true">📍</div>
+                <div>
+                  <div class="contact-method-label">Our Office</div>
+                  <div class="contact-method-value">12 Canary Wharf, London, UK</div>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-method-icon" style="background:rgba(245,158,11,0.1);" aria-hidden="true">⏱</div>
+                <div>
+                  <div class="contact-method-label">Response Time</div>
+                  <div class="contact-method-value">Within 1 Business Day</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stack Pills -->
+            <div style="margin-top:var(--space-10);">
+              <div style="font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-text-muted);margin-bottom:var(--space-4);">We work with</div>
+              <div class="tech-stack" role="list" aria-label="Technologies and platforms we work with">
+                <span class="tech-pill" role="listitem">⚛️ React</span>
+                <span class="tech-pill" role="listitem">▲ Next.js</span>
+                <span class="tech-pill" role="listitem">🎨 Figma</span>
+                <span class="tech-pill" role="listitem">🛒 Shopify</span>
+                <span class="tech-pill" role="listitem">📊 GA4</span>
+                <span class="tech-pill" role="listitem">☁️ AWS</span>
+                <span class="tech-pill" role="listitem">⚡ Vercel</span>
+                <span class="tech-pill" role="listitem">🔥 Firebase</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap reveal-right">
+            <div id="contact-form-inner">
+              <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:var(--space-2);">Send Us a Message</h3>
+              <p style="font-size:var(--text-sm);color:var(--color-text-secondary);margin-bottom:var(--space-8);">
+                Note: This is a demonstration form. Submissions are not sent to any server.
+              </p>
+
+              <form id="contact-form" novalidate aria-label="Contact form">
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="contact-name">Full Name <span aria-hidden="true" style="color:var(--color-rose)">*</span></label>
+                    <input
+                      type="text"
+                      id="contact-name"
+                      name="name"
+                      class="form-input"
+                      placeholder="Jane Smith"
+                      required
+                      autocomplete="name"
+                      aria-required="true"
+                      aria-describedby="name-error"
+                    />
+                    <span class="form-error" id="name-error" role="alert" aria-live="polite">Please enter your full name.</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="contact-email">Email Address <span aria-hidden="true" style="color:var(--color-rose)">*</span></label>
+                    <input
+                      type="email"
+                      id="contact-email"
+                      name="email"
+                      class="form-input"
+                      placeholder="jane@company.com"
+                      required
+                      autocomplete="email"
+                      aria-required="true"
+                      aria-describedby="email-error"
+                    />
+                    <span class="form-error" id="email-error" role="alert" aria-live="polite">Please enter a valid email address.</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="contact-company">Company / Organisation</label>
+                    <input
+                      type="text"
+                      id="contact-company"
+                      name="company"
+                      class="form-input"
+                      placeholder="Acme Inc."
+                      autocomplete="organization"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="contact-budget">Project Budget</label>
+                    <select id="contact-budget" name="budget" class="form-select form-input" aria-label="Select your project budget range">
+                      <option value="" disabled selected>Select budget range</option>
+                      <option value="5k-10k">£5,000 – £10,000</option>
+                      <option value="10k-25k">£10,000 – £25,000</option>
+                      <option value="25k-50k">£25,000 – £50,000</option>
+                      <option value="50k-100k">£50,000 – £100,000</option>
+                      <option value="100k+">£100,000+</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contact-subject">Subject <span aria-hidden="true" style="color:var(--color-rose)">*</span></label>
+                  <input
+                    type="text"
+                    id="contact-subject"
+                    name="subject"
+                    class="form-input"
+                    placeholder="Tell us what you need help with"
+                    required
+                    aria-required="true"
+                    aria-describedby="subject-error"
+                  />
+                  <span class="form-error" id="subject-error" role="alert" aria-live="polite">Please enter a subject.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contact-message">Your Message <span aria-hidden="true" style="color:var(--color-rose)">*</span></label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    class="form-textarea form-input"
+                    placeholder="Describe your project, goals, and timeline..."
+                    required
+                    rows="5"
+                    aria-required="true"
+                    aria-describedby="message-error"
+                  ></textarea>
+                  <span class="form-error" id="message-error" role="alert" aria-live="polite">Please enter a message (at least 20 characters).</span>
+                </div>
+
+                <div class="form-submit-wrap">
+                  <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                    <span class="btn-text">Send Message ↗</span>
+                    <span class="btn-loading" aria-hidden="true">
+                      <div class="spinner"></div>
+                      Sending…
+                    </span>
+                  </button>
+                </div>
+
+              </form>
+            </div>
+
+            <!-- Success State -->
+            <div class="form-success" id="form-success" role="status" aria-live="polite" aria-label="Form submission confirmation">
+              <div class="success-icon" aria-hidden="true">✅</div>
+              <h3 class="success-title">Message Received!</h3>
+              <p class="success-text">
+                Thank you for reaching out. Our team will review your project details
+                and get back to you within one business day.
+              </p>
+              <div class="success-notice" role="note">
+                ⚠ Demo note: No data was actually transmitted. This is a client-side
+                demonstration of the form submission experience.
+              </div>
+              <button class="btn btn-outline" id="form-reset-btn" style="margin-top:var(--space-4);">
+                Send Another Message
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer role="contentinfo" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-top">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="navbar-logo" aria-label="Nexora Digital homepage">
+            <div class="logo-mark" aria-hidden="true">Nx</div>
+            <span class="logo-text">Nexora<span>Digital</span></span>
+          </a>
+          <p>
+            We craft exceptional digital experiences that drive real business growth.
+            From strategy to execution, we're your end-to-end digital partner.
+          </p>
+          <div class="footer-social" role="list" aria-label="Social media links (placeholder)">
+            <a href="#" class="social-link" role="listitem" aria-label="Twitter / X (placeholder link)">𝕏</a>
+            <a href="#" class="social-link" role="listitem" aria-label="LinkedIn (placeholder link)">in</a>
+            <a href="#" class="social-link" role="listitem" aria-label="Dribbble (placeholder link)">🏀</a>
+            <a href="#" class="social-link" role="listitem" aria-label="GitHub (placeholder link)">⌥</a>
+            <a href="#" class="social-link" role="listitem" aria-label="Instagram (placeholder link)">▣</a>
+          </div>
+        </div>
+
+        <!-- Services Links -->
+        <nav aria-label="Services navigation">
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#services" class="footer-link">Web Development</a></li>
+            <li><a href="#services" class="footer-link">UI/UX Design</a></li>
+            <li><a href="#services" class="footer-link">Digital Marketing</a></li>
+            <li><a href="#services" class="footer-link">SEO & Content</a></li>
+            <li><a href="#services" class="footer-link">Business Automation</a></li>
+            <li><a href="#services" class="footer-link">Brand Strategy</a></li>
+          </ul>
+        </nav>
+
+        <!-- Company Links -->
+        <nav aria-label="Company navigation">
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#about"        class="footer-link">About Us</a></li>
+            <li><a href="#portfolio"    class="footer-link">Portfolio</a></li>
+            <li><a href="#process"      class="footer-link">Our Process</a></li>
+            <li><a href="#testimonials" class="footer-link">Client Reviews</a></li>
+            <li><a href="#contact"      class="footer-link">Careers</a></li>
+            <li><a href="#contact"      class="footer-link">Press Kit</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact Links -->
+        <nav aria-label="Contact information">
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-links" role="list">
+            <li><a href="mailto:hello@nexoradigital.io" class="footer-link">hello@nexoradigital.io</a></li>
+            <li><a href="tel:+442012345678"             class="footer-link">+44 20 1234 5678</a></li>
+            <li><a href="#contact"                      class="footer-link">12 Canary Wharf, London</a></li>
+            <li><a href="#contact"                      class="footer-link">Book a Free Call</a></li>
+            <li><a href="#contact"                      class="footer-link">Get a Quote</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-bottom-text">
+          © 2024 Nexora Digital Ltd. All rights reserved. This is a demonstration website — not a real commercial entity.
+        </p>
+        <nav class="footer-bottom-links" aria-label="Legal links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+          <a href="#" class="footer-bottom-link">Cookie Policy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Scroll back to top of page">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
